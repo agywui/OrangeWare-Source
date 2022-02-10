@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="Headers\[Detours].h">
+      <Filter>Detours</Filter>
+    </ClInclude>
+    <ClInclude Include="Extra\[OLD SDK].h">
+      <Filter>Extra</Filter>
+    </ClInclude>
+    <ClInclude Include="Extra\[Old Funcs].h">
+      <Filter>Extra</Filter>
+    </ClInclude>
+    <ClInclude Include="Extra\[All_Updated_Offsets].h">
+      <Filter>Extra</Filter>
+    </ClInclude>
+    <ClInclude Include="Extra\[OtherOldStuff].h">
+      <Filter>Extra</Filter>
+    </ClInclude>
+    <ClInclude Include="Extra\[Signatures].h">
+      <Filter>Extra</Filter>
+    </ClInclude>
+    <ClInclude Include="Importer\[Importer].h">
+      <Filter>HandleKhash</Filter>
+    </ClInclude>
+    <ClInclude Include="Protection\[CustomXor].h">
+      <Filter>Protection</Filter>
+    </ClInclude>
+    <ClInclude Include="Defines.h">
+      <Filter>Defs</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector3.h">
+      <Filter>Vector3</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Marathon-Fortnite-Cheat-main\Marathon-Fortnite-Cheat-main\ModuleGrab.h">
+      <Filter>Module</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui.h">
+      <Filter>Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_impl_dx11.h">
+      <Filter>Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_internal.h">
+      <Filter>Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\stb_rect_pack.h">
+      <Filter>Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\stb_textedit.h">
+      <Filter>Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\stb_truetype.h">
+      <Filter>Imgui</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{221c50a8-d81b-49a8-a0db-12aacad4c3ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Asm">
+      <UniqueIdentifier>{63e55a6d-66f9-4ee7-91dc-acdd29ef663d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Extra">
+      <UniqueIdentifier>{b625cbb3-7898-43b1-b879-abb46ae72d0c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Protection">
+      <UniqueIdentifier>{c6854d31-f9d3-4ab7-8840-cd806cfcb21c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Detours">
+      <UniqueIdentifier>{a8e2f9b3-677a-4b6d-9154-e9ef289502f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HandleKhash">
+      <UniqueIdentifier>{61fbd491-13cf-4a3f-ac59-0b107c59ce15}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDK">
+      <UniqueIdentifier>{3929d7cc-ee31-418b-88ed-0464524fbbb7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Defs">
+      <UniqueIdentifier>{72586967-a5b3-428a-ac91-29a5f50d985e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Vector3">
+      <UniqueIdentifier>{ff19ce46-821d-4ceb-9889-a7c467abd68d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Module">
+      <UniqueIdentifier>{ce5263c2-fab7-4e77-b73c-b7cf988156a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Imgui">
+      <UniqueIdentifier>{4915858f-2927-4d76-acd2-29dd95aa7991}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="[dllmain].cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector3.cpp">
+      <Filter>Vector3</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui.cpp">
+      <Filter>Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_draw.cpp">
+      <Filter>Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_impl_dx11.cpp">
+      <Filter>Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Module\ModuleGrab.cpp">
+      <Filter>Module</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <MASM Include="Asm\[NtUserSendInput].asm">
+      <Filter>Asm</Filter>
+    </MASM>
+    <MASM Include="Asm\[shell].asm">
+      <Filter>Asm</Filter>
+    </MASM>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Asm\[cpp].hint">
+      <Filter>Asm</Filter>
+    </None>
+    <None Include="cpp.hint" />
+  </ItemGroup>
+</Project>
